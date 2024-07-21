@@ -45,7 +45,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 - [Tree-sitter](https://tree-sitter.github.io/tree-sitter/) for the parsing library.
 - [Pretty_env_logger](https://crates.io/crates/pretty_env_logger) for the logging setup.
-
 ```
-
-This README provides an overview of the project, instructions for installation and usage, and other relevant information for contributors and users. Adjust the URLs and paths as necessary for your specific project setup.
