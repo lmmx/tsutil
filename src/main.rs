@@ -2,6 +2,7 @@ use std::env;
 use std::fs;
 use std::path::Path;
 use tree_sitter::{Parser, Language, Node};
+use colored::*;
 
 extern "C" {
     fn tree_sitter_rust() -> Language;
@@ -20,13 +21,13 @@ fn print_tree(node: Node, source_code: &str, indent: usize) {
     let indent_str = " ".repeat(indent);
     let formatted_node = format!(
         "{} [grammar_name='{}', grammar_id='{}', named='{}', extra='{}'] {} - {}",
-        node.kind().replace('\n', "\\n"),
-        node.grammar_name().replace('\n', "\\n"),
-        node.grammar_id().to_string(),
-        node.is_named().to_string(),
-        node.is_extra().to_string(),
-        node.start_position(),
-        node.end_position()
+        node.kind().replace('\n', "\\n").yellow(),
+        node.grammar_name().replace('\n', "\\n").blue(),
+        node.grammar_id().to_string().green(),
+        node.is_named().to_string().cyan(),
+        node.is_extra().to_string().magenta(),
+        node.start_position().to_string().red(),
+        node.end_position().to_string().red()
     );
 
     println!("{}{}", indent_str, formatted_node);
