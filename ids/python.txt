@@ -1,274 +1,274 @@
-0: end
-1: identifier
-2: ;
-3: import
-4: .
-5: from
-6: __future__
-7: (
-8: )
-9: ,
-10: as
-11: *
-12: print
-13: >>
-14: assert
-15: :=
-16: return
-17: del
-18: raise
-19: pass
-20: break
-21: continue
-22: if
-23: :
-24: elif
-25: else
-26: match
-27: case
-28: async
-29: for
-30: in
-31: while
-32: try
-33: except
-34: except*
-35: finally
-36: with
-37: def
-38: ->
-39: **
-40: global
-41: nonlocal
-42: exec
-43: type
-44: =
-45: class
-46: [
-47: ]
-48: @
-49: -
-50: _
-51: |
-52: {
-53: }
-54: +
-55: not
-56: and
-57: or
-58: /
-59: %
-60: //
-61: &
-62: ^
-63: <<
-64: ~
-65: <
-66: <=
-67: ==
-68: !=
-69: >=
-70: >
-71: <>
-72: is
-73: lambda
-74: +=
-75: -=
-76: *=
-77: /=
-78: @=
-79: //=
-80: %=
-81: **=
-82: >>=
-83: <<=
-84: &=
-85: ^=
-86: |=
-87: yield
-88: ellipsis
-89: escape_sequence
-90: _not_escape_sequence
-91: format_specifier_token1
-92: type_conversion
-93: integer
-94: float
-95: await
-96: true
-97: false
-98: none
-99: comment
-100: line_continuation
-101: _newline
-102: _indent
-103: _dedent
-104: string_start
-105: _string_content
-106: escape_interpolation
-107: string_end
-108: module
-109: _statement
-110: _simple_statements
-111: import_statement
-112: import_prefix
-113: relative_import
-114: future_import_statement
-115: import_from_statement
-116: _import_list
-117: aliased_import
-118: wildcard_import
-119: print_statement
-120: chevron
-121: assert_statement
-122: expression_statement
-123: named_expression
-124: _named_expression_lhs
-125: return_statement
-126: delete_statement
-127: raise_statement
-128: pass_statement
-129: break_statement
-130: continue_statement
-131: if_statement
-132: elif_clause
-133: else_clause
-134: match_statement
-135: block
-136: case_clause
-137: for_statement
-138: while_statement
-139: try_statement
-140: except_clause
-141: except_group_clause
-142: finally_clause
-143: with_statement
-144: with_clause
-145: with_item
-146: function_definition
-147: parameters
-148: lambda_parameters
-149: list_splat
-150: dictionary_splat
-151: global_statement
-152: nonlocal_statement
-153: exec_statement
-154: type_alias_statement
-155: class_definition
-156: type_parameter
-157: parenthesized_list_splat
-158: argument_list
-159: decorated_definition
-160: decorator
-161: block
-162: expression_list
-163: dotted_name
-164: case_pattern
-165: _simple_pattern
-166: as_pattern
-167: union_pattern
-168: list_pattern
-169: tuple_pattern
-170: dict_pattern
-171: _key_value_pattern
-172: keyword_pattern
-173: splat_pattern
-174: class_pattern
-175: complex_pattern
-176: _parameters
-177: _patterns
-178: parameter
-179: pattern
-180: tuple_pattern
-181: list_pattern
-182: default_parameter
-183: typed_default_parameter
-184: list_splat_pattern
-185: dictionary_splat_pattern
-186: as_pattern
-187: _expression_within_for_in_clause
-188: expression
-189: primary_expression
-190: not_operator
-191: boolean_operator
-192: binary_operator
-193: unary_operator
-194: comparison_operator
-195: lambda
-196: lambda
-197: assignment
-198: augmented_assignment
-199: pattern_list
-200: _right_hand_side
-201: yield
-202: attribute
-203: subscript
-204: slice
-205: call
-206: typed_parameter
-207: type
-208: splat_type
-209: generic_type
-210: union_type
-211: constrained_type
-212: member_type
-213: keyword_argument
-214: list
-215: set
-216: tuple
-217: dictionary
-218: pair
-219: list_comprehension
-220: dictionary_comprehension
-221: set_comprehension
-222: generator_expression
-223: _comprehension_clauses
-224: parenthesized_expression
-225: _collection_elements
-226: for_in_clause
-227: if_clause
-228: conditional_expression
-229: concatenated_string
-230: string
-231: string_content
-232: interpolation
-233: _f_expression
-234: format_specifier
-235: await
-236: positional_separator
-237: keyword_separator
-238: module_repeat1
-239: _simple_statements_repeat1
-240: import_prefix_repeat1
-241: _import_list_repeat1
-242: print_statement_repeat1
-243: assert_statement_repeat1
-244: if_statement_repeat1
-245: match_statement_repeat1
-246: _match_block_repeat1
-247: case_clause_repeat1
-248: try_statement_repeat1
-249: try_statement_repeat2
-250: with_clause_repeat1
-251: global_statement_repeat1
-252: type_parameter_repeat1
-253: argument_list_repeat1
-254: decorated_definition_repeat1
-255: dotted_name_repeat1
-256: union_pattern_repeat1
-257: dict_pattern_repeat1
-258: _parameters_repeat1
-259: _patterns_repeat1
-260: comparison_operator_repeat1
-261: subscript_repeat1
-262: dictionary_repeat1
-263: _comprehension_clauses_repeat1
-264: _collection_elements_repeat1
-265: for_in_clause_repeat1
-266: concatenated_string_repeat1
-267: string_repeat1
-268: string_content_repeat1
-269: format_specifier_repeat1
-270: as_pattern_target
-271: format_expression
-272: is not
-273: not in
+0: kind=end, named=false, hidden=false, visible=false
+1: kind=identifier, named=true, hidden=false, visible=true
+2: kind=;, named=false, hidden=false, visible=true
+3: kind=import, named=false, hidden=false, visible=true
+4: kind=., named=false, hidden=false, visible=true
+5: kind=from, named=false, hidden=false, visible=true
+6: kind=__future__, named=false, hidden=true, visible=true
+7: kind=(, named=false, hidden=false, visible=true
+8: kind=), named=false, hidden=false, visible=true
+9: kind=,, named=false, hidden=false, visible=true
+10: kind=as, named=false, hidden=false, visible=true
+11: kind=*, named=false, hidden=false, visible=true
+12: kind=print, named=false, hidden=false, visible=true
+13: kind=>>, named=false, hidden=false, visible=true
+14: kind=assert, named=false, hidden=false, visible=true
+15: kind=:=, named=false, hidden=false, visible=true
+16: kind=return, named=false, hidden=false, visible=true
+17: kind=del, named=false, hidden=false, visible=true
+18: kind=raise, named=false, hidden=false, visible=true
+19: kind=pass, named=false, hidden=false, visible=true
+20: kind=break, named=false, hidden=false, visible=true
+21: kind=continue, named=false, hidden=false, visible=true
+22: kind=if, named=false, hidden=false, visible=true
+23: kind=:, named=false, hidden=false, visible=true
+24: kind=elif, named=false, hidden=false, visible=true
+25: kind=else, named=false, hidden=false, visible=true
+26: kind=match, named=false, hidden=false, visible=true
+27: kind=case, named=false, hidden=false, visible=true
+28: kind=async, named=false, hidden=false, visible=true
+29: kind=for, named=false, hidden=false, visible=true
+30: kind=in, named=false, hidden=false, visible=true
+31: kind=while, named=false, hidden=false, visible=true
+32: kind=try, named=false, hidden=false, visible=true
+33: kind=except, named=false, hidden=false, visible=true
+34: kind=except*, named=false, hidden=false, visible=true
+35: kind=finally, named=false, hidden=false, visible=true
+36: kind=with, named=false, hidden=false, visible=true
+37: kind=def, named=false, hidden=false, visible=true
+38: kind=->, named=false, hidden=false, visible=true
+39: kind=**, named=false, hidden=false, visible=true
+40: kind=global, named=false, hidden=false, visible=true
+41: kind=nonlocal, named=false, hidden=false, visible=true
+42: kind=exec, named=false, hidden=false, visible=true
+43: kind=type, named=false, hidden=false, visible=true
+44: kind==, named=false, hidden=false, visible=true
+45: kind=class, named=false, hidden=false, visible=true
+46: kind=[, named=false, hidden=false, visible=true
+47: kind=], named=false, hidden=false, visible=true
+48: kind=@, named=false, hidden=false, visible=true
+49: kind=-, named=false, hidden=false, visible=true
+50: kind=_, named=false, hidden=true, visible=true
+51: kind=|, named=false, hidden=false, visible=true
+52: kind={, named=false, hidden=false, visible=true
+53: kind=}, named=false, hidden=false, visible=true
+54: kind=+, named=false, hidden=false, visible=true
+55: kind=not, named=false, hidden=false, visible=true
+56: kind=and, named=false, hidden=false, visible=true
+57: kind=or, named=false, hidden=false, visible=true
+58: kind=/, named=false, hidden=false, visible=true
+59: kind=%, named=false, hidden=false, visible=true
+60: kind=//, named=false, hidden=false, visible=true
+61: kind=&, named=false, hidden=false, visible=true
+62: kind=^, named=false, hidden=false, visible=true
+63: kind=<<, named=false, hidden=false, visible=true
+64: kind=~, named=false, hidden=false, visible=true
+65: kind=<, named=false, hidden=false, visible=true
+66: kind=<=, named=false, hidden=false, visible=true
+67: kind===, named=false, hidden=false, visible=true
+68: kind=!=, named=false, hidden=false, visible=true
+69: kind=>=, named=false, hidden=false, visible=true
+70: kind=>, named=false, hidden=false, visible=true
+71: kind=<>, named=false, hidden=false, visible=true
+72: kind=is, named=false, hidden=false, visible=true
+73: kind=lambda, named=false, hidden=false, visible=true
+74: kind=+=, named=false, hidden=false, visible=true
+75: kind=-=, named=false, hidden=false, visible=true
+76: kind=*=, named=false, hidden=false, visible=true
+77: kind=/=, named=false, hidden=false, visible=true
+78: kind=@=, named=false, hidden=false, visible=true
+79: kind=//=, named=false, hidden=false, visible=true
+80: kind=%=, named=false, hidden=false, visible=true
+81: kind=**=, named=false, hidden=false, visible=true
+82: kind=>>=, named=false, hidden=false, visible=true
+83: kind=<<=, named=false, hidden=false, visible=true
+84: kind=&=, named=false, hidden=false, visible=true
+85: kind=^=, named=false, hidden=false, visible=true
+86: kind=|=, named=false, hidden=false, visible=true
+87: kind=yield, named=false, hidden=false, visible=true
+88: kind=ellipsis, named=true, hidden=false, visible=true
+89: kind=escape_sequence, named=true, hidden=false, visible=true
+90: kind=_not_escape_sequence, named=false, hidden=true, visible=false
+91: kind=format_specifier_token1, named=false, hidden=false, visible=false
+92: kind=type_conversion, named=true, hidden=false, visible=true
+93: kind=integer, named=true, hidden=false, visible=true
+94: kind=float, named=true, hidden=false, visible=true
+95: kind=await, named=false, hidden=false, visible=true
+96: kind=true, named=true, hidden=false, visible=true
+97: kind=false, named=true, hidden=false, visible=true
+98: kind=none, named=true, hidden=false, visible=true
+99: kind=comment, named=true, hidden=false, visible=true
+100: kind=line_continuation, named=true, hidden=false, visible=true
+101: kind=_newline, named=false, hidden=true, visible=false
+102: kind=_indent, named=false, hidden=true, visible=false
+103: kind=_dedent, named=false, hidden=true, visible=false
+104: kind=string_start, named=true, hidden=false, visible=true
+105: kind=_string_content, named=false, hidden=true, visible=false
+106: kind=escape_interpolation, named=true, hidden=false, visible=true
+107: kind=string_end, named=true, hidden=false, visible=true
+108: kind=module, named=true, hidden=false, visible=true
+109: kind=_statement, named=false, hidden=true, visible=false
+110: kind=_simple_statements, named=false, hidden=true, visible=false
+111: kind=import_statement, named=true, hidden=false, visible=true
+112: kind=import_prefix, named=true, hidden=false, visible=true
+113: kind=relative_import, named=true, hidden=false, visible=true
+114: kind=future_import_statement, named=true, hidden=false, visible=true
+115: kind=import_from_statement, named=true, hidden=false, visible=true
+116: kind=_import_list, named=false, hidden=true, visible=false
+117: kind=aliased_import, named=true, hidden=false, visible=true
+118: kind=wildcard_import, named=true, hidden=false, visible=true
+119: kind=print_statement, named=true, hidden=false, visible=true
+120: kind=chevron, named=true, hidden=false, visible=true
+121: kind=assert_statement, named=true, hidden=false, visible=true
+122: kind=expression_statement, named=true, hidden=false, visible=true
+123: kind=named_expression, named=true, hidden=false, visible=true
+124: kind=_named_expression_lhs, named=false, hidden=true, visible=false
+125: kind=return_statement, named=true, hidden=false, visible=true
+126: kind=delete_statement, named=true, hidden=false, visible=true
+127: kind=raise_statement, named=true, hidden=false, visible=true
+128: kind=pass_statement, named=true, hidden=false, visible=true
+129: kind=break_statement, named=true, hidden=false, visible=true
+130: kind=continue_statement, named=true, hidden=false, visible=true
+131: kind=if_statement, named=true, hidden=false, visible=true
+132: kind=elif_clause, named=true, hidden=false, visible=true
+133: kind=else_clause, named=true, hidden=false, visible=true
+134: kind=match_statement, named=true, hidden=false, visible=true
+135: kind=block, named=true, hidden=false, visible=true
+136: kind=case_clause, named=true, hidden=false, visible=true
+137: kind=for_statement, named=true, hidden=false, visible=true
+138: kind=while_statement, named=true, hidden=false, visible=true
+139: kind=try_statement, named=true, hidden=false, visible=true
+140: kind=except_clause, named=true, hidden=false, visible=true
+141: kind=except_group_clause, named=true, hidden=false, visible=true
+142: kind=finally_clause, named=true, hidden=false, visible=true
+143: kind=with_statement, named=true, hidden=false, visible=true
+144: kind=with_clause, named=true, hidden=false, visible=true
+145: kind=with_item, named=true, hidden=false, visible=true
+146: kind=function_definition, named=true, hidden=false, visible=true
+147: kind=parameters, named=true, hidden=false, visible=true
+148: kind=lambda_parameters, named=true, hidden=false, visible=true
+149: kind=list_splat, named=true, hidden=false, visible=true
+150: kind=dictionary_splat, named=true, hidden=false, visible=true
+151: kind=global_statement, named=true, hidden=false, visible=true
+152: kind=nonlocal_statement, named=true, hidden=false, visible=true
+153: kind=exec_statement, named=true, hidden=false, visible=true
+154: kind=type_alias_statement, named=true, hidden=false, visible=true
+155: kind=class_definition, named=true, hidden=false, visible=true
+156: kind=type_parameter, named=true, hidden=false, visible=true
+157: kind=parenthesized_list_splat, named=true, hidden=false, visible=true
+158: kind=argument_list, named=true, hidden=false, visible=true
+159: kind=decorated_definition, named=true, hidden=false, visible=true
+160: kind=decorator, named=true, hidden=false, visible=true
+161: kind=block, named=true, hidden=false, visible=true
+162: kind=expression_list, named=true, hidden=false, visible=true
+163: kind=dotted_name, named=true, hidden=false, visible=true
+164: kind=case_pattern, named=true, hidden=false, visible=true
+165: kind=_simple_pattern, named=false, hidden=true, visible=false
+166: kind=as_pattern, named=true, hidden=false, visible=true
+167: kind=union_pattern, named=true, hidden=false, visible=true
+168: kind=list_pattern, named=true, hidden=false, visible=true
+169: kind=tuple_pattern, named=true, hidden=false, visible=true
+170: kind=dict_pattern, named=true, hidden=false, visible=true
+171: kind=_key_value_pattern, named=false, hidden=true, visible=false
+172: kind=keyword_pattern, named=true, hidden=false, visible=true
+173: kind=splat_pattern, named=true, hidden=false, visible=true
+174: kind=class_pattern, named=true, hidden=false, visible=true
+175: kind=complex_pattern, named=true, hidden=false, visible=true
+176: kind=_parameters, named=false, hidden=true, visible=false
+177: kind=_patterns, named=false, hidden=true, visible=false
+178: kind=parameter, named=false, hidden=false, visible=false
+179: kind=pattern, named=false, hidden=false, visible=false
+180: kind=tuple_pattern, named=true, hidden=false, visible=true
+181: kind=list_pattern, named=true, hidden=false, visible=true
+182: kind=default_parameter, named=true, hidden=false, visible=true
+183: kind=typed_default_parameter, named=true, hidden=false, visible=true
+184: kind=list_splat_pattern, named=true, hidden=false, visible=true
+185: kind=dictionary_splat_pattern, named=true, hidden=false, visible=true
+186: kind=as_pattern, named=true, hidden=false, visible=true
+187: kind=_expression_within_for_in_clause, named=false, hidden=true, visible=false
+188: kind=expression, named=false, hidden=false, visible=false
+189: kind=primary_expression, named=false, hidden=false, visible=false
+190: kind=not_operator, named=true, hidden=false, visible=true
+191: kind=boolean_operator, named=true, hidden=false, visible=true
+192: kind=binary_operator, named=true, hidden=false, visible=true
+193: kind=unary_operator, named=true, hidden=false, visible=true
+194: kind=comparison_operator, named=true, hidden=false, visible=true
+195: kind=lambda, named=true, hidden=false, visible=true
+196: kind=lambda, named=true, hidden=false, visible=true
+197: kind=assignment, named=true, hidden=false, visible=true
+198: kind=augmented_assignment, named=true, hidden=false, visible=true
+199: kind=pattern_list, named=true, hidden=false, visible=true
+200: kind=_right_hand_side, named=false, hidden=true, visible=false
+201: kind=yield, named=true, hidden=false, visible=true
+202: kind=attribute, named=true, hidden=false, visible=true
+203: kind=subscript, named=true, hidden=false, visible=true
+204: kind=slice, named=true, hidden=false, visible=true
+205: kind=call, named=true, hidden=false, visible=true
+206: kind=typed_parameter, named=true, hidden=false, visible=true
+207: kind=type, named=true, hidden=false, visible=true
+208: kind=splat_type, named=true, hidden=false, visible=true
+209: kind=generic_type, named=true, hidden=false, visible=true
+210: kind=union_type, named=true, hidden=false, visible=true
+211: kind=constrained_type, named=true, hidden=false, visible=true
+212: kind=member_type, named=true, hidden=false, visible=true
+213: kind=keyword_argument, named=true, hidden=false, visible=true
+214: kind=list, named=true, hidden=false, visible=true
+215: kind=set, named=true, hidden=false, visible=true
+216: kind=tuple, named=true, hidden=false, visible=true
+217: kind=dictionary, named=true, hidden=false, visible=true
+218: kind=pair, named=true, hidden=false, visible=true
+219: kind=list_comprehension, named=true, hidden=false, visible=true
+220: kind=dictionary_comprehension, named=true, hidden=false, visible=true
+221: kind=set_comprehension, named=true, hidden=false, visible=true
+222: kind=generator_expression, named=true, hidden=false, visible=true
+223: kind=_comprehension_clauses, named=false, hidden=true, visible=false
+224: kind=parenthesized_expression, named=true, hidden=false, visible=true
+225: kind=_collection_elements, named=false, hidden=true, visible=false
+226: kind=for_in_clause, named=true, hidden=false, visible=true
+227: kind=if_clause, named=true, hidden=false, visible=true
+228: kind=conditional_expression, named=true, hidden=false, visible=true
+229: kind=concatenated_string, named=true, hidden=false, visible=true
+230: kind=string, named=true, hidden=false, visible=true
+231: kind=string_content, named=true, hidden=false, visible=true
+232: kind=interpolation, named=true, hidden=false, visible=true
+233: kind=_f_expression, named=false, hidden=true, visible=false
+234: kind=format_specifier, named=true, hidden=false, visible=true
+235: kind=await, named=true, hidden=false, visible=true
+236: kind=positional_separator, named=true, hidden=false, visible=true
+237: kind=keyword_separator, named=true, hidden=false, visible=true
+238: kind=module_repeat1, named=false, hidden=false, visible=false
+239: kind=_simple_statements_repeat1, named=false, hidden=true, visible=false
+240: kind=import_prefix_repeat1, named=false, hidden=false, visible=false
+241: kind=_import_list_repeat1, named=false, hidden=true, visible=false
+242: kind=print_statement_repeat1, named=false, hidden=false, visible=false
+243: kind=assert_statement_repeat1, named=false, hidden=false, visible=false
+244: kind=if_statement_repeat1, named=false, hidden=false, visible=false
+245: kind=match_statement_repeat1, named=false, hidden=false, visible=false
+246: kind=_match_block_repeat1, named=false, hidden=true, visible=false
+247: kind=case_clause_repeat1, named=false, hidden=false, visible=false
+248: kind=try_statement_repeat1, named=false, hidden=false, visible=false
+249: kind=try_statement_repeat2, named=false, hidden=false, visible=false
+250: kind=with_clause_repeat1, named=false, hidden=false, visible=false
+251: kind=global_statement_repeat1, named=false, hidden=false, visible=false
+252: kind=type_parameter_repeat1, named=false, hidden=false, visible=false
+253: kind=argument_list_repeat1, named=false, hidden=false, visible=false
+254: kind=decorated_definition_repeat1, named=false, hidden=false, visible=false
+255: kind=dotted_name_repeat1, named=false, hidden=false, visible=false
+256: kind=union_pattern_repeat1, named=false, hidden=false, visible=false
+257: kind=dict_pattern_repeat1, named=false, hidden=false, visible=false
+258: kind=_parameters_repeat1, named=false, hidden=true, visible=false
+259: kind=_patterns_repeat1, named=false, hidden=true, visible=false
+260: kind=comparison_operator_repeat1, named=false, hidden=false, visible=false
+261: kind=subscript_repeat1, named=false, hidden=false, visible=false
+262: kind=dictionary_repeat1, named=false, hidden=false, visible=false
+263: kind=_comprehension_clauses_repeat1, named=false, hidden=true, visible=false
+264: kind=_collection_elements_repeat1, named=false, hidden=true, visible=false
+265: kind=for_in_clause_repeat1, named=false, hidden=false, visible=false
+266: kind=concatenated_string_repeat1, named=false, hidden=false, visible=false
+267: kind=string_repeat1, named=false, hidden=false, visible=false
+268: kind=string_content_repeat1, named=false, hidden=false, visible=false
+269: kind=format_specifier_repeat1, named=false, hidden=false, visible=false
+270: kind=as_pattern_target, named=true, hidden=false, visible=true
+271: kind=format_expression, named=true, hidden=false, visible=true
+272: kind=is not, named=false, hidden=false, visible=true
+273: kind=not in, named=false, hidden=false, visible=true

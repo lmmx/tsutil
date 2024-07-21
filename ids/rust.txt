@@ -1,345 +1,345 @@
-0: end
-1: identifier
-2: ;
-3: macro_rules!
-4: (
-5: )
-6: [
-7: ]
-8: {
-9: }
-10: =>
-11: :
-12: $
-13: token_repetition_pattern_token1
-14: +
-15: *
-16: ?
-17: block
-18: expr
-19: ident
-20: item
-21: lifetime
-22: literal
-23: meta
-24: pat
-25: path
-26: stmt
-27: tt
-28: ty
-29: vis
-30: primitive_type
-31: primitive_type
-32: primitive_type
-33: primitive_type
-34: primitive_type
-35: primitive_type
-36: primitive_type
-37: primitive_type
-38: primitive_type
-39: primitive_type
-40: primitive_type
-41: primitive_type
-42: primitive_type
-43: primitive_type
-44: primitive_type
-45: primitive_type
-46: primitive_type
-47: -
-48: /
-49: %
-50: ^
-51: !
-52: &
-53: |
-54: &&
-55: ||
-56: <<
-57: >>
-58: +=
-59: -=
-60: *=
-61: /=
-62: %=
-63: ^=
-64: &=
-65: |=
-66: <<=
-67: >>=
-68: =
-69: ==
-70: !=
-71: >
-72: <
-73: >=
-74: <=
-75: @
-76: _
-77: .
-78: ..
-79: ...
-80: ..=
-81: ,
-82: ::
-83: ->
-84: #
-85: '
-86: as
-87: async
-88: await
-89: break
-90: const
-91: continue
-92: default
-93: enum
-94: fn
-95: for
-96: if
-97: impl
-98: let
-99: loop
-100: match
-101: mod
-102: pub
-103: return
-104: static
-105: struct
-106: trait
-107: type
-108: union
-109: unsafe
-110: use
-111: where
-112: while
-113: extern
-114: ref
-115: else
-116: in
-117: <
-118: dyn
-119: mutable_specifier
-120: yield
-121: move
-122: try
-123: integer_literal
-124: "
-125: "
-126: char_literal
-127: escape_sequence
-128: true
-129: false
-130: //
-131: line_comment_token1
-132: line_comment_token2
-133: line_comment_token3
-134: inner_doc_comment_marker
-135: outer_doc_comment_marker
-136: /*
-137: */
-138: shebang
-139: self
-140: super
-141: crate
-142: metavariable
-143: string_content
-144: _raw_string_literal_start
-145: string_content
-146: _raw_string_literal_end
-147: float_literal
-148: outer_doc_comment_marker
-149: inner_doc_comment_marker
-150: _block_comment_content
-151: doc_comment
-152: _error_sentinel
-153: source_file
-154: _statement
-155: empty_statement
-156: expression_statement
-157: macro_definition
-158: macro_rule
-159: _token_pattern
-160: token_tree_pattern
-161: token_binding_pattern
-162: token_repetition_pattern
-163: fragment_specifier
-164: token_tree
-165: token_repetition
-166: attribute_item
-167: inner_attribute_item
-168: attribute
-169: mod_item
-170: foreign_mod_item
-171: declaration_list
-172: struct_item
-173: union_item
-174: enum_item
-175: enum_variant_list
-176: enum_variant
-177: field_declaration_list
-178: field_declaration
-179: ordered_field_declaration_list
-180: extern_crate_declaration
-181: const_item
-182: static_item
-183: type_item
-184: function_item
-185: function_signature_item
-186: function_modifiers
-187: where_clause
-188: where_predicate
-189: impl_item
-190: trait_item
-191: associated_type
-192: trait_bounds
-193: higher_ranked_trait_bound
-194: removed_trait_bound
-195: type_parameters
-196: const_parameter
-197: constrained_type_parameter
-198: optional_type_parameter
-199: let_declaration
-200: use_declaration
-201: _use_clause
-202: scoped_use_list
-203: use_list
-204: use_as_clause
-205: use_wildcard
-206: parameters
-207: self_parameter
-208: variadic_parameter
-209: parameter
-210: extern_modifier
-211: visibility_modifier
-212: _type
-213: bracketed_type
-214: qualified_type
-215: lifetime
-216: array_type
-217: for_lifetimes
-218: function_type
-219: tuple_type
-220: unit_type
-221: generic_function
-222: generic_type
-223: generic_type_with_turbofish
-224: bounded_type
-225: type_arguments
-226: type_binding
-227: reference_type
-228: pointer_type
-229: never_type
-230: abstract_type
-231: dynamic_type
-232: _expression_except_range
-233: _expression
-234: macro_invocation
-235: token_tree
-236: _delim_tokens
-237: _non_delim_token
-238: scoped_identifier
-239: scoped_type_identifier
-240: scoped_type_identifier
-241: range_expression
-242: unary_expression
-243: try_expression
-244: reference_expression
-245: binary_expression
-246: assignment_expression
-247: compound_assignment_expr
-248: type_cast_expression
-249: return_expression
-250: yield_expression
-251: call_expression
-252: arguments
-253: array_expression
-254: parenthesized_expression
-255: tuple_expression
-256: unit_expression
-257: struct_expression
-258: field_initializer_list
-259: shorthand_field_initializer
-260: field_initializer
-261: base_field_initializer
-262: if_expression
-263: let_condition
-264: _let_chain
-265: _condition
-266: else_clause
-267: match_expression
-268: match_block
-269: match_arm
-270: match_arm
-271: match_pattern
-272: while_expression
-273: loop_expression
-274: for_expression
-275: const_block
-276: closure_expression
-277: closure_parameters
-278: label
-279: break_expression
-280: continue_expression
-281: index_expression
-282: await_expression
-283: field_expression
-284: unsafe_block
-285: async_block
-286: try_block
-287: block
-288: _pattern
-289: tuple_pattern
-290: slice_pattern
-291: tuple_struct_pattern
-292: struct_pattern
-293: field_pattern
-294: remaining_field_pattern
-295: mut_pattern
-296: range_pattern
-297: ref_pattern
-298: captured_pattern
-299: reference_pattern
-300: or_pattern
-301: _literal
-302: _literal_pattern
-303: negative_literal
-304: string_literal
-305: raw_string_literal
-306: boolean_literal
-307: line_comment
-308: _line_doc_comment_marker
-309: block_comment
-310: _block_doc_comment_marker
-311: source_file_repeat1
-312: macro_definition_repeat1
-313: token_tree_pattern_repeat1
-314: token_tree_repeat1
-315: _non_special_token_repeat1
-316: declaration_list_repeat1
-317: enum_variant_list_repeat1
-318: enum_variant_list_repeat2
-319: field_declaration_list_repeat1
-320: ordered_field_declaration_list_repeat1
-321: function_modifiers_repeat1
-322: where_clause_repeat1
-323: trait_bounds_repeat1
-324: type_parameters_repeat1
-325: use_list_repeat1
-326: parameters_repeat1
-327: for_lifetimes_repeat1
-328: tuple_type_repeat1
-329: type_arguments_repeat1
-330: delim_token_tree_repeat1
-331: arguments_repeat1
-332: tuple_expression_repeat1
-333: field_initializer_list_repeat1
-334: match_block_repeat1
-335: match_arm_repeat1
-336: closure_parameters_repeat1
-337: tuple_pattern_repeat1
-338: slice_pattern_repeat1
-339: struct_pattern_repeat1
-340: string_literal_repeat1
-341: field_identifier
-342: let_chain
-343: shorthand_field_identifier
-344: type_identifier
+0: kind=end, named=false, hidden=false, visible=false
+1: kind=identifier, named=true, hidden=false, visible=true
+2: kind=;, named=false, hidden=false, visible=true
+3: kind=macro_rules!, named=false, hidden=false, visible=true
+4: kind=(, named=false, hidden=false, visible=true
+5: kind=), named=false, hidden=false, visible=true
+6: kind=[, named=false, hidden=false, visible=true
+7: kind=], named=false, hidden=false, visible=true
+8: kind={, named=false, hidden=false, visible=true
+9: kind=}, named=false, hidden=false, visible=true
+10: kind==>, named=false, hidden=false, visible=true
+11: kind=:, named=false, hidden=false, visible=true
+12: kind=$, named=false, hidden=false, visible=true
+13: kind=token_repetition_pattern_token1, named=false, hidden=false, visible=false
+14: kind=+, named=false, hidden=false, visible=true
+15: kind=*, named=false, hidden=false, visible=true
+16: kind=?, named=false, hidden=false, visible=true
+17: kind=block, named=false, hidden=false, visible=true
+18: kind=expr, named=false, hidden=false, visible=true
+19: kind=ident, named=false, hidden=false, visible=true
+20: kind=item, named=false, hidden=false, visible=true
+21: kind=lifetime, named=false, hidden=false, visible=true
+22: kind=literal, named=false, hidden=false, visible=true
+23: kind=meta, named=false, hidden=false, visible=true
+24: kind=pat, named=false, hidden=false, visible=true
+25: kind=path, named=false, hidden=false, visible=true
+26: kind=stmt, named=false, hidden=false, visible=true
+27: kind=tt, named=false, hidden=false, visible=true
+28: kind=ty, named=false, hidden=false, visible=true
+29: kind=vis, named=false, hidden=false, visible=true
+30: kind=primitive_type, named=true, hidden=false, visible=true
+31: kind=primitive_type, named=true, hidden=false, visible=true
+32: kind=primitive_type, named=true, hidden=false, visible=true
+33: kind=primitive_type, named=true, hidden=false, visible=true
+34: kind=primitive_type, named=true, hidden=false, visible=true
+35: kind=primitive_type, named=true, hidden=false, visible=true
+36: kind=primitive_type, named=true, hidden=false, visible=true
+37: kind=primitive_type, named=true, hidden=false, visible=true
+38: kind=primitive_type, named=true, hidden=false, visible=true
+39: kind=primitive_type, named=true, hidden=false, visible=true
+40: kind=primitive_type, named=true, hidden=false, visible=true
+41: kind=primitive_type, named=true, hidden=false, visible=true
+42: kind=primitive_type, named=true, hidden=false, visible=true
+43: kind=primitive_type, named=true, hidden=false, visible=true
+44: kind=primitive_type, named=true, hidden=false, visible=true
+45: kind=primitive_type, named=true, hidden=false, visible=true
+46: kind=primitive_type, named=true, hidden=false, visible=true
+47: kind=-, named=false, hidden=false, visible=true
+48: kind=/, named=false, hidden=false, visible=true
+49: kind=%, named=false, hidden=false, visible=true
+50: kind=^, named=false, hidden=false, visible=true
+51: kind=!, named=false, hidden=false, visible=true
+52: kind=&, named=false, hidden=false, visible=true
+53: kind=|, named=false, hidden=false, visible=true
+54: kind=&&, named=false, hidden=false, visible=true
+55: kind=||, named=false, hidden=false, visible=true
+56: kind=<<, named=false, hidden=false, visible=true
+57: kind=>>, named=false, hidden=false, visible=true
+58: kind=+=, named=false, hidden=false, visible=true
+59: kind=-=, named=false, hidden=false, visible=true
+60: kind=*=, named=false, hidden=false, visible=true
+61: kind=/=, named=false, hidden=false, visible=true
+62: kind=%=, named=false, hidden=false, visible=true
+63: kind=^=, named=false, hidden=false, visible=true
+64: kind=&=, named=false, hidden=false, visible=true
+65: kind=|=, named=false, hidden=false, visible=true
+66: kind=<<=, named=false, hidden=false, visible=true
+67: kind=>>=, named=false, hidden=false, visible=true
+68: kind==, named=false, hidden=false, visible=true
+69: kind===, named=false, hidden=false, visible=true
+70: kind=!=, named=false, hidden=false, visible=true
+71: kind=>, named=false, hidden=false, visible=true
+72: kind=<, named=false, hidden=false, visible=true
+73: kind=>=, named=false, hidden=false, visible=true
+74: kind=<=, named=false, hidden=false, visible=true
+75: kind=@, named=false, hidden=false, visible=true
+76: kind=_, named=false, hidden=true, visible=true
+77: kind=., named=false, hidden=false, visible=true
+78: kind=.., named=false, hidden=false, visible=true
+79: kind=..., named=false, hidden=false, visible=true
+80: kind=..=, named=false, hidden=false, visible=true
+81: kind=,, named=false, hidden=false, visible=true
+82: kind=::, named=false, hidden=false, visible=true
+83: kind=->, named=false, hidden=false, visible=true
+84: kind=#, named=false, hidden=false, visible=true
+85: kind=', named=false, hidden=false, visible=true
+86: kind=as, named=false, hidden=false, visible=true
+87: kind=async, named=false, hidden=false, visible=true
+88: kind=await, named=false, hidden=false, visible=true
+89: kind=break, named=false, hidden=false, visible=true
+90: kind=const, named=false, hidden=false, visible=true
+91: kind=continue, named=false, hidden=false, visible=true
+92: kind=default, named=false, hidden=false, visible=true
+93: kind=enum, named=false, hidden=false, visible=true
+94: kind=fn, named=false, hidden=false, visible=true
+95: kind=for, named=false, hidden=false, visible=true
+96: kind=if, named=false, hidden=false, visible=true
+97: kind=impl, named=false, hidden=false, visible=true
+98: kind=let, named=false, hidden=false, visible=true
+99: kind=loop, named=false, hidden=false, visible=true
+100: kind=match, named=false, hidden=false, visible=true
+101: kind=mod, named=false, hidden=false, visible=true
+102: kind=pub, named=false, hidden=false, visible=true
+103: kind=return, named=false, hidden=false, visible=true
+104: kind=static, named=false, hidden=false, visible=true
+105: kind=struct, named=false, hidden=false, visible=true
+106: kind=trait, named=false, hidden=false, visible=true
+107: kind=type, named=false, hidden=false, visible=true
+108: kind=union, named=false, hidden=false, visible=true
+109: kind=unsafe, named=false, hidden=false, visible=true
+110: kind=use, named=false, hidden=false, visible=true
+111: kind=where, named=false, hidden=false, visible=true
+112: kind=while, named=false, hidden=false, visible=true
+113: kind=extern, named=false, hidden=false, visible=true
+114: kind=ref, named=false, hidden=false, visible=true
+115: kind=else, named=false, hidden=false, visible=true
+116: kind=in, named=false, hidden=false, visible=true
+117: kind=<, named=false, hidden=false, visible=true
+118: kind=dyn, named=false, hidden=false, visible=true
+119: kind=mutable_specifier, named=true, hidden=false, visible=true
+120: kind=yield, named=false, hidden=false, visible=true
+121: kind=move, named=false, hidden=false, visible=true
+122: kind=try, named=false, hidden=false, visible=true
+123: kind=integer_literal, named=true, hidden=false, visible=true
+124: kind=", named=false, hidden=false, visible=true
+125: kind=", named=false, hidden=false, visible=true
+126: kind=char_literal, named=true, hidden=false, visible=true
+127: kind=escape_sequence, named=true, hidden=false, visible=true
+128: kind=true, named=false, hidden=false, visible=true
+129: kind=false, named=false, hidden=false, visible=true
+130: kind=//, named=false, hidden=false, visible=true
+131: kind=line_comment_token1, named=false, hidden=false, visible=false
+132: kind=line_comment_token2, named=false, hidden=false, visible=false
+133: kind=line_comment_token3, named=false, hidden=false, visible=false
+134: kind=inner_doc_comment_marker, named=true, hidden=false, visible=true
+135: kind=outer_doc_comment_marker, named=true, hidden=false, visible=true
+136: kind=/*, named=false, hidden=false, visible=true
+137: kind=*/, named=false, hidden=false, visible=true
+138: kind=shebang, named=true, hidden=false, visible=true
+139: kind=self, named=true, hidden=false, visible=true
+140: kind=super, named=true, hidden=false, visible=true
+141: kind=crate, named=true, hidden=false, visible=true
+142: kind=metavariable, named=true, hidden=false, visible=true
+143: kind=string_content, named=true, hidden=false, visible=true
+144: kind=_raw_string_literal_start, named=false, hidden=true, visible=false
+145: kind=string_content, named=true, hidden=false, visible=true
+146: kind=_raw_string_literal_end, named=false, hidden=true, visible=false
+147: kind=float_literal, named=true, hidden=false, visible=true
+148: kind=outer_doc_comment_marker, named=true, hidden=false, visible=true
+149: kind=inner_doc_comment_marker, named=true, hidden=false, visible=true
+150: kind=_block_comment_content, named=false, hidden=true, visible=false
+151: kind=doc_comment, named=true, hidden=false, visible=true
+152: kind=_error_sentinel, named=false, hidden=true, visible=false
+153: kind=source_file, named=true, hidden=false, visible=true
+154: kind=_statement, named=false, hidden=true, visible=false
+155: kind=empty_statement, named=true, hidden=false, visible=true
+156: kind=expression_statement, named=true, hidden=false, visible=true
+157: kind=macro_definition, named=true, hidden=false, visible=true
+158: kind=macro_rule, named=true, hidden=false, visible=true
+159: kind=_token_pattern, named=false, hidden=true, visible=false
+160: kind=token_tree_pattern, named=true, hidden=false, visible=true
+161: kind=token_binding_pattern, named=true, hidden=false, visible=true
+162: kind=token_repetition_pattern, named=true, hidden=false, visible=true
+163: kind=fragment_specifier, named=true, hidden=false, visible=true
+164: kind=token_tree, named=true, hidden=false, visible=true
+165: kind=token_repetition, named=true, hidden=false, visible=true
+166: kind=attribute_item, named=true, hidden=false, visible=true
+167: kind=inner_attribute_item, named=true, hidden=false, visible=true
+168: kind=attribute, named=true, hidden=false, visible=true
+169: kind=mod_item, named=true, hidden=false, visible=true
+170: kind=foreign_mod_item, named=true, hidden=false, visible=true
+171: kind=declaration_list, named=true, hidden=false, visible=true
+172: kind=struct_item, named=true, hidden=false, visible=true
+173: kind=union_item, named=true, hidden=false, visible=true
+174: kind=enum_item, named=true, hidden=false, visible=true
+175: kind=enum_variant_list, named=true, hidden=false, visible=true
+176: kind=enum_variant, named=true, hidden=false, visible=true
+177: kind=field_declaration_list, named=true, hidden=false, visible=true
+178: kind=field_declaration, named=true, hidden=false, visible=true
+179: kind=ordered_field_declaration_list, named=true, hidden=false, visible=true
+180: kind=extern_crate_declaration, named=true, hidden=false, visible=true
+181: kind=const_item, named=true, hidden=false, visible=true
+182: kind=static_item, named=true, hidden=false, visible=true
+183: kind=type_item, named=true, hidden=false, visible=true
+184: kind=function_item, named=true, hidden=false, visible=true
+185: kind=function_signature_item, named=true, hidden=false, visible=true
+186: kind=function_modifiers, named=true, hidden=false, visible=true
+187: kind=where_clause, named=true, hidden=false, visible=true
+188: kind=where_predicate, named=true, hidden=false, visible=true
+189: kind=impl_item, named=true, hidden=false, visible=true
+190: kind=trait_item, named=true, hidden=false, visible=true
+191: kind=associated_type, named=true, hidden=false, visible=true
+192: kind=trait_bounds, named=true, hidden=false, visible=true
+193: kind=higher_ranked_trait_bound, named=true, hidden=false, visible=true
+194: kind=removed_trait_bound, named=true, hidden=false, visible=true
+195: kind=type_parameters, named=true, hidden=false, visible=true
+196: kind=const_parameter, named=true, hidden=false, visible=true
+197: kind=constrained_type_parameter, named=true, hidden=false, visible=true
+198: kind=optional_type_parameter, named=true, hidden=false, visible=true
+199: kind=let_declaration, named=true, hidden=false, visible=true
+200: kind=use_declaration, named=true, hidden=false, visible=true
+201: kind=_use_clause, named=false, hidden=true, visible=false
+202: kind=scoped_use_list, named=true, hidden=false, visible=true
+203: kind=use_list, named=true, hidden=false, visible=true
+204: kind=use_as_clause, named=true, hidden=false, visible=true
+205: kind=use_wildcard, named=true, hidden=false, visible=true
+206: kind=parameters, named=true, hidden=false, visible=true
+207: kind=self_parameter, named=true, hidden=false, visible=true
+208: kind=variadic_parameter, named=true, hidden=false, visible=true
+209: kind=parameter, named=true, hidden=false, visible=true
+210: kind=extern_modifier, named=true, hidden=false, visible=true
+211: kind=visibility_modifier, named=true, hidden=false, visible=true
+212: kind=_type, named=false, hidden=true, visible=false
+213: kind=bracketed_type, named=true, hidden=false, visible=true
+214: kind=qualified_type, named=true, hidden=false, visible=true
+215: kind=lifetime, named=true, hidden=false, visible=true
+216: kind=array_type, named=true, hidden=false, visible=true
+217: kind=for_lifetimes, named=true, hidden=false, visible=true
+218: kind=function_type, named=true, hidden=false, visible=true
+219: kind=tuple_type, named=true, hidden=false, visible=true
+220: kind=unit_type, named=true, hidden=false, visible=true
+221: kind=generic_function, named=true, hidden=false, visible=true
+222: kind=generic_type, named=true, hidden=false, visible=true
+223: kind=generic_type_with_turbofish, named=true, hidden=false, visible=true
+224: kind=bounded_type, named=true, hidden=false, visible=true
+225: kind=type_arguments, named=true, hidden=false, visible=true
+226: kind=type_binding, named=true, hidden=false, visible=true
+227: kind=reference_type, named=true, hidden=false, visible=true
+228: kind=pointer_type, named=true, hidden=false, visible=true
+229: kind=never_type, named=true, hidden=false, visible=true
+230: kind=abstract_type, named=true, hidden=false, visible=true
+231: kind=dynamic_type, named=true, hidden=false, visible=true
+232: kind=_expression_except_range, named=false, hidden=true, visible=false
+233: kind=_expression, named=false, hidden=true, visible=false
+234: kind=macro_invocation, named=true, hidden=false, visible=true
+235: kind=token_tree, named=true, hidden=false, visible=true
+236: kind=_delim_tokens, named=false, hidden=true, visible=false
+237: kind=_non_delim_token, named=false, hidden=true, visible=false
+238: kind=scoped_identifier, named=true, hidden=false, visible=true
+239: kind=scoped_type_identifier, named=true, hidden=false, visible=true
+240: kind=scoped_type_identifier, named=true, hidden=false, visible=true
+241: kind=range_expression, named=true, hidden=false, visible=true
+242: kind=unary_expression, named=true, hidden=false, visible=true
+243: kind=try_expression, named=true, hidden=false, visible=true
+244: kind=reference_expression, named=true, hidden=false, visible=true
+245: kind=binary_expression, named=true, hidden=false, visible=true
+246: kind=assignment_expression, named=true, hidden=false, visible=true
+247: kind=compound_assignment_expr, named=true, hidden=false, visible=true
+248: kind=type_cast_expression, named=true, hidden=false, visible=true
+249: kind=return_expression, named=true, hidden=false, visible=true
+250: kind=yield_expression, named=true, hidden=false, visible=true
+251: kind=call_expression, named=true, hidden=false, visible=true
+252: kind=arguments, named=true, hidden=false, visible=true
+253: kind=array_expression, named=true, hidden=false, visible=true
+254: kind=parenthesized_expression, named=true, hidden=false, visible=true
+255: kind=tuple_expression, named=true, hidden=false, visible=true
+256: kind=unit_expression, named=true, hidden=false, visible=true
+257: kind=struct_expression, named=true, hidden=false, visible=true
+258: kind=field_initializer_list, named=true, hidden=false, visible=true
+259: kind=shorthand_field_initializer, named=true, hidden=false, visible=true
+260: kind=field_initializer, named=true, hidden=false, visible=true
+261: kind=base_field_initializer, named=true, hidden=false, visible=true
+262: kind=if_expression, named=true, hidden=false, visible=true
+263: kind=let_condition, named=true, hidden=false, visible=true
+264: kind=_let_chain, named=false, hidden=true, visible=false
+265: kind=_condition, named=false, hidden=true, visible=false
+266: kind=else_clause, named=true, hidden=false, visible=true
+267: kind=match_expression, named=true, hidden=false, visible=true
+268: kind=match_block, named=true, hidden=false, visible=true
+269: kind=match_arm, named=true, hidden=false, visible=true
+270: kind=match_arm, named=true, hidden=false, visible=true
+271: kind=match_pattern, named=true, hidden=false, visible=true
+272: kind=while_expression, named=true, hidden=false, visible=true
+273: kind=loop_expression, named=true, hidden=false, visible=true
+274: kind=for_expression, named=true, hidden=false, visible=true
+275: kind=const_block, named=true, hidden=false, visible=true
+276: kind=closure_expression, named=true, hidden=false, visible=true
+277: kind=closure_parameters, named=true, hidden=false, visible=true
+278: kind=label, named=true, hidden=false, visible=true
+279: kind=break_expression, named=true, hidden=false, visible=true
+280: kind=continue_expression, named=true, hidden=false, visible=true
+281: kind=index_expression, named=true, hidden=false, visible=true
+282: kind=await_expression, named=true, hidden=false, visible=true
+283: kind=field_expression, named=true, hidden=false, visible=true
+284: kind=unsafe_block, named=true, hidden=false, visible=true
+285: kind=async_block, named=true, hidden=false, visible=true
+286: kind=try_block, named=true, hidden=false, visible=true
+287: kind=block, named=true, hidden=false, visible=true
+288: kind=_pattern, named=false, hidden=true, visible=false
+289: kind=tuple_pattern, named=true, hidden=false, visible=true
+290: kind=slice_pattern, named=true, hidden=false, visible=true
+291: kind=tuple_struct_pattern, named=true, hidden=false, visible=true
+292: kind=struct_pattern, named=true, hidden=false, visible=true
+293: kind=field_pattern, named=true, hidden=false, visible=true
+294: kind=remaining_field_pattern, named=true, hidden=false, visible=true
+295: kind=mut_pattern, named=true, hidden=false, visible=true
+296: kind=range_pattern, named=true, hidden=false, visible=true
+297: kind=ref_pattern, named=true, hidden=false, visible=true
+298: kind=captured_pattern, named=true, hidden=false, visible=true
+299: kind=reference_pattern, named=true, hidden=false, visible=true
+300: kind=or_pattern, named=true, hidden=false, visible=true
+301: kind=_literal, named=false, hidden=true, visible=false
+302: kind=_literal_pattern, named=false, hidden=true, visible=false
+303: kind=negative_literal, named=true, hidden=false, visible=true
+304: kind=string_literal, named=true, hidden=false, visible=true
+305: kind=raw_string_literal, named=true, hidden=false, visible=true
+306: kind=boolean_literal, named=true, hidden=false, visible=true
+307: kind=line_comment, named=true, hidden=false, visible=true
+308: kind=_line_doc_comment_marker, named=false, hidden=true, visible=false
+309: kind=block_comment, named=true, hidden=false, visible=true
+310: kind=_block_doc_comment_marker, named=false, hidden=true, visible=false
+311: kind=source_file_repeat1, named=false, hidden=false, visible=false
+312: kind=macro_definition_repeat1, named=false, hidden=false, visible=false
+313: kind=token_tree_pattern_repeat1, named=false, hidden=false, visible=false
+314: kind=token_tree_repeat1, named=false, hidden=false, visible=false
+315: kind=_non_special_token_repeat1, named=false, hidden=true, visible=false
+316: kind=declaration_list_repeat1, named=false, hidden=false, visible=false
+317: kind=enum_variant_list_repeat1, named=false, hidden=false, visible=false
+318: kind=enum_variant_list_repeat2, named=false, hidden=false, visible=false
+319: kind=field_declaration_list_repeat1, named=false, hidden=false, visible=false
+320: kind=ordered_field_declaration_list_repeat1, named=false, hidden=false, visible=false
+321: kind=function_modifiers_repeat1, named=false, hidden=false, visible=false
+322: kind=where_clause_repeat1, named=false, hidden=false, visible=false
+323: kind=trait_bounds_repeat1, named=false, hidden=false, visible=false
+324: kind=type_parameters_repeat1, named=false, hidden=false, visible=false
+325: kind=use_list_repeat1, named=false, hidden=false, visible=false
+326: kind=parameters_repeat1, named=false, hidden=false, visible=false
+327: kind=for_lifetimes_repeat1, named=false, hidden=false, visible=false
+328: kind=tuple_type_repeat1, named=false, hidden=false, visible=false
+329: kind=type_arguments_repeat1, named=false, hidden=false, visible=false
+330: kind=delim_token_tree_repeat1, named=false, hidden=false, visible=false
+331: kind=arguments_repeat1, named=false, hidden=false, visible=false
+332: kind=tuple_expression_repeat1, named=false, hidden=false, visible=false
+333: kind=field_initializer_list_repeat1, named=false, hidden=false, visible=false
+334: kind=match_block_repeat1, named=false, hidden=false, visible=false
+335: kind=match_arm_repeat1, named=false, hidden=false, visible=false
+336: kind=closure_parameters_repeat1, named=false, hidden=false, visible=false
+337: kind=tuple_pattern_repeat1, named=false, hidden=false, visible=false
+338: kind=slice_pattern_repeat1, named=false, hidden=false, visible=false
+339: kind=struct_pattern_repeat1, named=false, hidden=false, visible=false
+340: kind=string_literal_repeat1, named=false, hidden=false, visible=false
+341: kind=field_identifier, named=true, hidden=false, visible=true
+342: kind=let_chain, named=true, hidden=false, visible=true
+343: kind=shorthand_field_identifier, named=true, hidden=false, visible=true
+344: kind=type_identifier, named=true, hidden=false, visible=true

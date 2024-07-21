@@ -18,15 +18,7 @@ pub fn print_node(node: Node, source_code: &str, node_types: &[String]) {
     let node_type = &node_types[node_type_id];
     let node_text = &source_code[node.byte_range()];
 
-    let colored_text = match node_type.as_str() {
-        "function_item" => node_text.bright_blue(),
-        "identifier" => node_text.bright_green(),
-        "number_literal" => node_text.bright_yellow(),
-        "let" => node_text.bright_magenta(),
-        _ => node_text.normal(),
-    };
-
-    println!("{}: {}", node_type, colored_text);
+    println!("{}: {}", node_type, node_text.bright_green());
 
     let mut cursor = node.walk();
     for child in node.children(&mut cursor) {
@@ -35,8 +27,12 @@ pub fn print_node(node: Node, source_code: &str, node_types: &[String]) {
 }
 
 pub fn print_node_type_mapping(language: Language) {
-    let node_types = get_node_types(language);
-    for (id, node_type) in node_types.iter().enumerate() {
-        println!("{}: {}", id, node_type);
+    let node_type_count = language.node_kind_count();
+    for id in 0..node_type_count {
+        let node_kind = language.node_kind_for_id(id as u16).unwrap();
+        let is_named = language.node_kind_is_named(id as u16);
+        let is_visible = language.node_kind_is_visible(id as u16);
+        let is_hidden = node_kind.starts_with("_");
+        println!("{}: kind={}, named={}, hidden={}, visible={}", id, node_kind.bright_green(), is_named, is_hidden, is_visible);
     }
 }
