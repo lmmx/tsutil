@@ -19,9 +19,10 @@ fn guess_language(extension: &str) -> Option<Language> {
 fn print_tree(node: Node, source_code: &str, indent: usize) {
     let indent_str = " ".repeat(indent);
     let formatted_node = format!(
-        "{} [grammar={}, named={}, extra={}] {} - {}",
+        "{} [grammar_name='{}', grammar_id='{}', named='{}', extra='{}'] {} - {}",
         node.kind().replace('\n', "\\n"),
         node.grammar_name().replace('\n', "\\n"),
+        node.grammar_id().to_string(),
         node.is_named().to_string(),
         node.is_extra().to_string(),
         node.start_position(),
