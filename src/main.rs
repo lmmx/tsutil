@@ -9,7 +9,7 @@ extern "C" {
 }
 
 mod node_printer;
-mod syntax_highlight;
+mod node_map;
 
 fn guess_language(extension: &str) -> Option<Language> {
     match extension {
@@ -45,7 +45,7 @@ fn main() {
     };
 
     if list_ids {
-        syntax_highlight::print_node_type_mapping(language);
+        node_map::print_node_type_mapping(language);
         return;
     }
 
@@ -61,8 +61,8 @@ fn main() {
     let root_node = tree.root_node();
 
     if highlight {
-        let node_types = syntax_highlight::get_node_types(language);
-        syntax_highlight::print_node(root_node, &source_code, &node_types);
+        let node_types = node_map::get_node_types(language);
+        node_map::print_node(root_node, &source_code, &node_types);
     } else {
         node_printer::print_tree(root_node, &source_code, 0);
     }
